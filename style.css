@@ -1,0 +1,220 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* 
+colors of website 
+
+PINK   #BA7474
+BLACK  #160505
+
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  color: #160505;
+}
+.offset::before {
+  height: 4rem;
+  margin-top: -4rem;
+  content: "";
+  display: block; 
+}
+
+/* Navbar style */
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: #BA7474 !important;
+  -webkit-box-shadow: 0px 3px 12px -2px rgba(22,5,5,1);
+-moz-box-shadow: 0px 3px 12px -2px rgba(22,5,5,1);
+box-shadow: 0px 3px 12px -2px rgba(22,5,5,1);
+}
+.navbar-brand img {
+  height: 3rem;
+}
+.navbar-nav li {
+  padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color:white;
+  padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #160505;
+}
+
+/* Slider */
+
+.carousel-item {
+  height: 100vh;
+}
+
+.carousel-caption {
+  position: absolute;
+  top:38%;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.carousel-caption h1 {
+  font-size: 12rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+
+  text-transform: uppercase;
+}
+.carousel-caption h3 {
+  font-size: 4rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+}
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  font-size: 1rem;
+}
+
+.divider {
+  height: 50px;
+  width: 100%;
+  background:url(img/divider_bg.png) repeat-x;
+  z-index: 1000;
+  position: absolute;
+  top: 98%;
+
+}
+
+
+/*============= COURSE SECTION =============*/
+
+.narrow {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.btn-md {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.1rem;
+  text-transform: uppercase;
+  margin: 1rem;
+}
+.jumbotron {
+  border-radius: 0;
+  padding: 3rem 0 2rem;
+  margin-bottom: 0;
+}
+h3.heading {
+  width: 350px;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 2rem;
+  color: white !important;
+  border: dotted white 5px;
+  margin: 5rem auto;
+}
+
+/* Portfolio */
+
+.portfolio {
+  background-color: #BA7474 !important;
+}
+ 
+img.art{
+  width: 100%;
+  height: 300px;
+  object-fit:cover;
+  transition: transform 1s;
+}
+.thumb{
+  overflow: hidden;
+  padding: 0 !important; 
+}
+
+img.art:hover{
+  transform: scale(1.2);
+}
+
+/* Contact */
+
+footer {
+  background-color: #1073d6;
+  color: white;
+  padding: 2rem 0 3rem;
+  margin-top: 1rem;
+}
+footer img {
+  height: 3rem;
+  margin: 1.5rem 0;
+}
+footer a {
+  color: white;
+}
+footer svg.svg-inline-fa {
+  font-size: 1.6rem;
+  margin: 1.2rem .5rem 0 0;
+}
+footer svg.svg-inline-fa:hover {
+  color: #5c8816;
+}
+hr.socket {
+  border-top: .2rem solid #105ebe;
+  width: 100%;
+}
+
+/* Media query */
+
+@media (max-width: 767px) {
+  .carousel-caption h1 {
+    font-size: 2rem;
+    font-weight: 700;letter-spacing: .1rem;
+    padding-bottom: .5rem;
+  }
+  .carousel-caption h3 {
+    font-size: 1rem;
+    
+    padding-bottom: 1.2rem;
+  }
+  .btn-lg {
+   
+    font-size: 1rem;
+  }
+  .narrow h1 {
+    font-size: 1.5rem;
+  }
+  p.lead {
+    font-size: .9rem;
+  }
+}
+
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
