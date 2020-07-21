@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 /* 
 colors of website 
 
@@ -14,20 +13,20 @@ html {
 
 body {
   overflow-x: hidden;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #160505;
 }
 .offset::before {
   height: 4rem;
   margin-top: -4rem;
   content: "";
-  display: block; 
+  display: block;
 }
 .underline {
-height: 5px;
-width: 150px;
-border-top: 5px dotted #865252;
-margin: 50px auto;
+  height: 5px;
+  width: 150px;
+  border-top: 5px dotted #865252;
+  margin: 50px auto;
 }
 
 .btn {
@@ -48,7 +47,7 @@ margin: 50px auto;
 .btn-md {
   border-width: medium;
   border-radius: 0;
-  padding: .6rem 1.1rem;
+  padding: 0.6rem 1.1rem;
   text-transform: uppercase;
   margin: 1rem;
 }
@@ -58,7 +57,7 @@ margin: 50px auto;
   margin-bottom: 0;
 }
 h3.heading {
-  width: 350px;
+  width: 400px;
   font-size: 3rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -68,34 +67,34 @@ h3.heading {
   margin: 5rem auto;
 }
 
-/* Navbar style */
+/*============= NAVBAR STYLE  =============*/
 
 .navbar {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: .9rem;
-  letter-spacing: .1rem;
-  background: #BA7474 !important;
-  -webkit-box-shadow: 0px 3px 12px -2px rgba(22,5,5,1);
--moz-box-shadow: 0px 3px 12px -2px rgba(22,5,5,1);
-box-shadow: 0px 3px 12px -2px rgba(22,5,5,1);
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  background: #ba7474 !important;
+  -webkit-box-shadow: 0px 3px 12px -2px rgba(22, 5, 5, 1);
+  -moz-box-shadow: 0px 3px 12px -2px rgba(22, 5, 5, 1);
+  box-shadow: 0px 3px 12px -2px rgba(22, 5, 5, 1);
 }
 .navbar-brand img {
   height: 3rem;
 }
 .navbar-nav li {
-  padding-right: .7rem;
+  padding-right: 0.7rem;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color:white;
-  padding-top: .8rem;
+  color: white;
+  padding-top: 0.8rem;
 }
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #865252;
 }
 
-/* Slider */
+/*============= SLIDER  =============*/
 
 .carousel-item {
   height: 100vh;
@@ -103,24 +102,23 @@ box-shadow: 0px 3px 12px -2px rgba(22,5,5,1);
 
 .carousel-caption {
   position: absolute;
-  top:25%;
+  top: 25%;
   left: 0;
   right: 0;
   width: 100%;
 }
 
-
 .carousel-caption h1 {
   font-size: 12rem;
   font-weight: 700;
-  letter-spacing: .3rem;
-  text-shadow: .1rem .1rem .8rem black;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
 
   text-transform: uppercase;
 }
 .carousel-caption h3 {
   font-size: 4rem;
-  text-shadow: .1rem .1rem .5rem black;
+  text-shadow: 0.1rem 0.1rem 0.5rem black;
   padding-bottom: 1.6rem;
 }
 .btn-lg {
@@ -129,16 +127,16 @@ box-shadow: 0px 3px 12px -2px rgba(22,5,5,1);
   font-size: 1rem;
 }
 
-/* About */
+/*============= ABOUT  =============*/
 
 .card-body.text {
   padding-right: 10%;
 }
 
-/* Portfolio */
+/*============= PORTFOLIO  =============*/
 
 .portfolio {
-  background-color: #BA7474 !important;
+  background-color: #ba7474 !important;
 }
 
 h3.projects {
@@ -149,27 +147,27 @@ h3.projects {
   padding: 2rem;
   color: white !important;
 }
- 
-img.art{
+
+img.art {
   width: 100%;
-  object-fit:cover;
-  transition: transform .3s ease-in-out;
-  -webkit-transition: transform .3s ease-in-out;
-  -moz-transition: transform .3s ease-in-out;
-  -ms-transition: transform .3s ease-in-out;
-  -o-transition: transform .3s ease-in-out;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+  -moz-transition: transform 0.3s ease-in-out;
+  -ms-transition: transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
   border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
   -o-border-radius: 0;
 }
-.thumb{
+.thumb {
   overflow: hidden;
-  padding: 0 !important; 
+  padding: 0 !important;
 }
 
-img.art:hover{
+img.art:hover {
   transform: scale(1.03);
   -webkit-transform: scale(1.03);
   -moz-transform: scale(1.03);
@@ -177,14 +175,12 @@ img.art:hover{
   -o-transform: scale(1.03);
 }
 
-
-/* Contact */
+/*============= PORTFOLIO  =============*/
 
 footer {
-  background-color: #BA7474;
+  background-color: #ba7474;
   color: white;
   padding: 2rem 0 3rem;
- 
 }
 footer a {
   color: white;
@@ -199,7 +195,7 @@ footer li {
 }
 footer svg.svg-inline-fa {
   font-size: 1.6rem;
-  margin: 1.2rem .5rem 0 0;
+  margin: 1.2rem 0.5rem 0 0;
 }
 footer svg.svg-inline-fa:hover {
   color: #865252;
@@ -209,28 +205,41 @@ hr.socket {
   width: 100%;
 }
 
-/* Media query */
+/*============= PRODUCTS PAGE  =============*/
+
+img.products {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  transition: transform 1s;
+}
+
+img.products:hover {
+  transform: scale(1.2);
+}
+
+/*============= MEDIA QUERY  =============*/
 
 @media (max-width: 767px) {
   .carousel-caption h1 {
     font-size: 2rem;
-    font-weight: 700;letter-spacing: .1rem;
-    padding-bottom: .5rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    padding-bottom: 0.5rem;
   }
   .carousel-caption h3 {
     font-size: 1rem;
-    
+
     padding-bottom: 1.2rem;
   }
   .btn-lg {
-   
     font-size: 1rem;
   }
   .narrow h1 {
     font-size: 1.5rem;
   }
   p.lead {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
   .card-body.text {
     padding-right: 0;
@@ -250,15 +259,12 @@ hr.socket {
   }
   .carousel-caption {
     position: absolute;
-    top:38%;
+    top: 38%;
     left: 0;
     right: 0;
     width: 100%;
   }
 }
-
-
-
 
 /*============ BOOTSTRAP BREAK POINTS:
 
