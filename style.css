@@ -164,7 +164,7 @@ img.art {
 }
 .thumb {
   overflow: hidden;
-  padding: 0 !important;
+  padding: .5rem !important;
 }
 
 img.art:hover {
@@ -175,7 +175,8 @@ img.art:hover {
   -o-transform: scale(1.03);
 }
 
-/*============= PORTFOLIO  =============*/
+
+/*============= FOOTER  =============*/
 
 footer {
   background-color: #ba7474;
