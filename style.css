@@ -140,11 +140,10 @@ h3.heading {
 }
 
 h3.projects {
+  width: 100%;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
-  text-transform: uppercase;
-  padding: 2rem;
   color: white !important;
 }
 
@@ -165,6 +164,7 @@ img.art {
 .thumb {
   overflow: hidden;
   padding: .5rem !important;
+  
 }
 
 img.art:hover {
