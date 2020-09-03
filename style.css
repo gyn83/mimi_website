@@ -133,6 +133,11 @@ h3.heading {
   padding-right: 10%;
 }
 
+.card-img-top {
+ max-height: 700px;
+ object-fit: cover;
+}
+
 /*============= PORTFOLIO  =============*/
 
 .portfolio {
